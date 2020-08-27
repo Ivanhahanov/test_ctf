@@ -1,0 +1,3 @@
+User-agent: Google
+Disallow: /admin
+flag{r0b0ts}
