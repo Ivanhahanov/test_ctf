@@ -6,3 +6,9 @@ services:
       - "./robots/app:/app"
     ports:
       - "5000:8000"
+  company:
+    build: ./company
+    volumes:
+      - "./company/app:/app"
+    ports:
+      - "8080:8000"
